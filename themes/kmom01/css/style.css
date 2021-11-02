@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #EDF1FF;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #EDF1FF;
+}
+
+.flash-img {
+    height: 80px;
+    width: 100%;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+    border-bottom: 0.1rem solid black;
+    border-top: 0.1rem solid black;
+}
+
+.main {
+    line-height: 1.5;
+    background-color: #EDF1FF;
+    text-align: center;
+    overflow-y: scroll;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    background-color: #EDF1FF;
+}
+
+
+.main a {
+    color: #743a25;
+    text-decoration: none;
+}
+
+.main a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    margin-bottom: 2rem;
+}
+
+p {
+    padding: 1rem 0;
+}
+
+
+img.photo {
+    width: 15%;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    float: right;
+}
+
+.main img {
+    /* select all images inside main */
+    margin: 1rem;
+    height: 20%;
+    width: 20%;
+}
+
+/* Header - navigation */
+.site-header {
+    /* flex-grow flex-shrink flex-basis, equals flex: none */
+    font-size: 1.2rem;
+    color: #2b2e30;
+    /* spacing to right */
+    background-color: #DCF4F3;
+    height: 80px;
+}
+
+.flash-region {
+    font-size: 0;
+    /* removes spacing below  flash img */
+    margin: 0;
+    padding: 0;
+}
+
+.site-header a, .site-header a:visited {
+    /* color links */
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Footer */
+.site-footer {
+    border-top: 0.1rem solid black;
+    text-align: center;
+    background: #DCF4F3;
+    color: #2b2e30;
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.social {
+    margin: 0;
+    padding: 0;
+}
+
+.social p{
+    font-size: 1.0rem;
+    margin: 2px;
+    padding: 0;
+}
+
+.site-footer a {
+    padding: 0 1rem;
+    margin: 0;
+    text-decoration: none;
+}
+
+
