@@ -1,11 +1,13 @@
 {% include 'incl/header.twig' %}
 
-<body>
+<body> <!---remove to turn showgrid off.-->
     {% include 'incl/nav.twig' %}
-
-    <div class="main" role="main">
+    <div class="main-image">
+         <div class="main" role="main">
         {{ content }}
     </div>
+    </div>
+
 
     {% include 'incl/footer.twig' %}
 </body>

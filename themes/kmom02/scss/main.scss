@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    padding-top: 10%;
+    padding-left: 15%;
+    padding-right:15%;
+    margin-bottom: 20px;
+    flex: 1 0 auto;
+}
+
+.main-wrap {
+    overflow: hidden;
+    position: relative;
+    height: 90%;
+}
+
+.main-wrap-img{
+    opacity: 0.4;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+html, body {
+    background-color: $background-color;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
