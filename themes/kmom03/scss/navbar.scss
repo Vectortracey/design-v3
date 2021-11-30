@@ -1,0 +1,28 @@
+/* Navbar */
+.nav {
+    padding-right: 15%;
+}
+
+.nav a {
+    opacity: 0.8;
+}
+
+.nav a:hover {
+    opacity: 1;
+}
+
+@media (max-width: 767px) {
+    .nav {
+        position: relative;
+        top: -160%;
+        padding-right: 10%;
+    }
+}
+
+@media (max-width: 500px) {
+    .nav {
+        position: relative;
+        top: -40%;
+        margin-left: 5%;
+    }
+}
