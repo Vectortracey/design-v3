@@ -14,10 +14,12 @@
 }
 
 .main-wrap {
+    position: relative;
+    top: 10%;
     overflow: hidden;
     position: relative;
     height: 75%;
-    overflow-y: scroll;
+
 }
 
 .main-wrap-img{
