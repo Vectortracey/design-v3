@@ -7,7 +7,7 @@
 
 .main{
 
-    margin-top: 20%;
+    flex: 1 0 auto;
     padding-left: 15%;
     padding-right: 15%;
     margin-bottom: 20px;
@@ -16,7 +16,7 @@
 .main-wrap {
     overflow: hidden;
     position: relative;
-    height: 90%;
+    height: 75%;
     overflow-y: scroll;
 }
 
@@ -34,7 +34,6 @@ html, body {
     display: flex;
     flex-direction: column;
     height: 100%;
-
 }
 
 @media (max-width: 767px) {

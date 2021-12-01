@@ -32,11 +32,20 @@ a, u {
     }
 
     .landingpage {
-        margin-left: 30%;
-        display: grid;
-        grid-row-gap: 5rem;
-        grid-column-gap: 5rem;
-        grid-template-columns: repeat(3, minmax(0, 1fr));
+            display: grid;
+            grid-row-gap: 3rem;
+            grid-column-gap: 3rem;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            margin-bottom: 3rem;
+            margin-top: 15%;
+            margin-left: 15%;
+            justify-content: space-between;
+        h1 {
+            grid-column: span 3;
+            justify-self: center;
+            height: 2rem;
+            line-height: 1em;
+        }
 
         .item {
             display: flex;
@@ -53,7 +62,6 @@ a, u {
                 h2 {
                     margin: auto;
                     color: white;
-
                 }
             }
 
@@ -69,45 +77,49 @@ a, u {
             grid-template-columns: 1fr;
             grid-row-gap: 1em;
             margin-bottom: 1rem;
-            margin-left: 15%;
 
-            h1 {
+
+            .technology-rubrik {
                 grid-column: span 1;
             }
 
             .item {
                 height: 3em;
                 width: 15em;
-                margin-left: 25%;
+                
             }
         }
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 960px) {
     .technology {
         .landingpage {
-            margin-top: 25%;
-            width: 80%;
-            margin-left: 10%;
-            margin-bottom: 2%;
+            width: 70%;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-row-gap: 1em;
+            margin-bottom: 1rem;
+
 
             h1 {
-                font-size: 24px;
+                grid-column: span 1;
+                margin-bottom: 1em;
+                margin-top: 1em;
             }
         }
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 500px) {
     .technology {
+        justify-content: space-between;
         .landingpage {
-            margin-top: 25%;
+            margin-top: 50%;
             width: 80%;
-            margin-left: 8%;
 
             h1 {
-                font-size: 24px;
+                display:none;
             }
         }
     }

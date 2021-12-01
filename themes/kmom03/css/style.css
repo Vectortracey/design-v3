@@ -6589,7 +6589,6 @@ pre code {
     padding: 0;
     width: 100% auto;
     margin: 2em auto;
-    background: lightgray;
     margin-left: 10%;
   }
 }
@@ -6600,7 +6599,12 @@ pre code {
     width: 96%;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 1200px) {
+  .title p {
+    display: none;
+  }
+}
+@media (max-width: 440px) {
   .title {
     display: none;
   }
@@ -6640,7 +6644,7 @@ pre code {
 }
 
 .main {
-  margin-top: 20%;
+  flex: 1 0 auto;
   padding-left: 15%;
   padding-right: 15%;
   margin-bottom: 20px;
@@ -6649,7 +6653,7 @@ pre code {
 .main-wrap {
   overflow: hidden;
   position: relative;
-  height: 90%;
+  height: 75%;
   overflow-y: scroll;
 }
 
@@ -6691,13 +6695,17 @@ html, body {
   }
 }
 .footer {
-  height: 40px auto;
   flex: 0 0 auto;
+  border-top: #d3d3d3 2px solid;
   background-color: black;
-  opacity: 0.8;
-  position: absolute;
-  bottom: 0;
+  opacity: 0.9;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 1%;
+  height: 15%;
   width: 100%;
+  position: fixed;
+  bottom: 0;
 }
 
 .footer .column .copyright {
@@ -6760,11 +6768,20 @@ a, u {
   margin: 0 auto;
 }
 .technology .landingpage {
-  margin-left: 30%;
   display: grid;
-  grid-row-gap: 5rem;
-  grid-column-gap: 5rem;
+  grid-row-gap: 3rem;
+  grid-column-gap: 3rem;
   grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-bottom: 3rem;
+  margin-top: 15%;
+  margin-left: 15%;
+  justify-content: space-between;
+}
+.technology .landingpage h1 {
+  grid-column: span 3;
+  justify-self: center;
+  height: 2rem;
+  line-height: 1em;
 }
 .technology .landingpage .item {
   display: flex;
@@ -6790,36 +6807,39 @@ a, u {
     grid-template-columns: 1fr;
     grid-row-gap: 1em;
     margin-bottom: 1rem;
-    margin-left: 15%;
   }
-  .technology .landingpage h1 {
+  .technology .landingpage .technology-rubrik {
     grid-column: span 1;
   }
   .technology .landingpage .item {
     height: 3em;
     width: 15em;
-    margin-left: 25%;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 960px) {
   .technology .landingpage {
-    margin-top: 25%;
-    width: 80%;
-    margin-left: 10%;
-    margin-bottom: 2%;
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 1em;
+    margin-bottom: 1rem;
   }
   .technology .landingpage h1 {
-    font-size: 24px;
+    grid-column: span 1;
+    margin-bottom: 1em;
+    margin-top: 1em;
   }
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 500px) {
+  .technology {
+    justify-content: space-between;
+  }
   .technology .landingpage {
-    margin-top: 25%;
+    margin-top: 50%;
     width: 80%;
-    margin-left: 8%;
   }
   .technology .landingpage h1 {
-    font-size: 24px;
+    display: none;
   }
 }
 @media screen and (max-width: 550px) {

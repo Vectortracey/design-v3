@@ -5,6 +5,7 @@ Template: technology
 ---
 
 <div class = "landingpage">
+        <h1> Page Technical Content </h1>
 
         <div class ="item">
         <a href="technology/pico">
