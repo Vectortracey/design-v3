@@ -1,12 +1,10 @@
 .footer {
     flex: 0 0 auto;
-    border-top: $footer-border-top 2px solid;
     background-color: black;
-    opacity: 0.9;
     padding-left: 15%;
     padding-right: 15%;
     padding-top: 1%;
-    height: 15%;
+    height: 10%;
     width: 100%;
     position: fixed;
     bottom: 0;
@@ -28,6 +26,6 @@
 }
 .social {
     font-size: 2rem;
-    padding-left: 50%;
+    padding-left: 45%;
 }
 

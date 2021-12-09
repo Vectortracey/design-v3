@@ -1,0 +1,140 @@
+a, u {
+  text-decoration: none;
+}
+
+.analysis {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 15%;
+
+    .asideAnalysis {
+        position: fixed;
+        top: 15%;
+        display: flex;
+        flex-direction: column;
+        width: 15%;
+        flex-shrink: 0;
+        padding-top: 2em;
+        font-size: 2em;
+        line-height: 1em;
+        margin: 0 auto;
+
+    }
+
+    .asideAnalysis a {
+        margin-bottom: 10px;
+    }
+
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        width: 65%;
+        margin: 0 auto;
+
+
+    }
+
+    .landingpage {
+            display: grid;
+            grid-row-gap: 3rem;
+            grid-column-gap: 3rem;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            margin-bottom: 3rem;
+            margin-top: 15%;
+            margin-left: 15%;
+            justify-content: space-between;
+        h1 {
+            grid-column: span 3;
+            justify-self: center;
+            height: 2rem;
+            line-height: 1em;
+        }
+
+        .item {
+            display: flex;
+            flex-direction: column;
+            height: 2em;
+            width: 10em;
+            border-radius: 25px;
+            background-color: #7B9D4E;
+
+            .box-title {
+                height: 2rem;
+                display: flex;
+
+                h2 {
+                    margin: auto;
+                    color: white;
+                }
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .analysis {
+        .landingpage {
+            width: 70%;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-row-gap: 1em;
+            margin-bottom: 1rem;
+
+
+            .technology-rubrik {
+                grid-column: span 1;
+            }
+
+            .item {
+                height: 3em;
+                width: 15em;
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .analysis {
+        .landingpage {
+            width: 70%;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-row-gap: 1em;
+            margin-bottom: 1rem;
+
+
+            h1 {
+                grid-column: span 1;
+                margin-bottom: 1em;
+                margin-top: 1em;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .analysis {
+        justify-content: space-between;
+        .landingpage {
+            margin-top: 50%;
+            width: 80%;
+
+            h1 {
+                display:none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .analysis {
+        .asideAnalysis {
+            display: none !important;
+        }
+    }
+}

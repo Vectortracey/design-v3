@@ -6454,7 +6454,7 @@ template {
 }
 
 * {
-  color: #333;
+  color: white;
 }
 
 html {
@@ -6962,4 +6962,37 @@ a, u {
   .analysis .asideAnalysis {
     display: none !important;
   }
+}
+.main {
+  background-color: #202125;
+}
+
+.html {
+  background-color: #202125;
+}
+
+.main-wrap {
+  background-color: #202125;
+}
+
+.header {
+  background-color: #202125;
+}
+
+body {
+  background-color: #202125;
+}
+
+.nav a {
+  color: white;
+}
+
+.site-header {
+  z-index: 10;
+}
+.site-header .title h1 {
+  color: white;
+}
+.site-header .title p {
+  color: white;
 }
