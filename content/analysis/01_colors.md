@@ -5,7 +5,7 @@ Template: analysis
 ---
 
 <div class = "main-content">
-    <h1>Webbplatsers färgval</h1>
+    <h1>Kursmoment 4</h1>
     <p>
    Denna rapport har sammanställts för kursen PA1436 för att undersöka val av färg och typsnitt hos 3 olika hemsidor.
     </p>

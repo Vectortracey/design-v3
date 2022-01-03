@@ -1,6 +1,7 @@
 ---
 Title: Om
 Description: This is my about page.
+Template: index
 ---
 
 About page
